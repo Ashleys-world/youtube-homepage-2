@@ -1,0 +1,271 @@
+.main
+{
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar{
+    background-color: white;
+    display: flex;
+}
+
+.navbar img{
+    image-rendering: pixelated;
+    width: 100px;
+    height: 40px;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.navbar .menu{
+    width: 30px;
+    height: 30px;
+    padding-left: 20px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+}
+
+.navbar form {
+    padding-left: 200px;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    align-self: center;
+    display: flex;
+}
+
+.navbar form input {
+    height: 35px;
+    width: 480px;
+    border: 2px solid black
+}
+
+.navbar form input.btn{
+    height: 29px;
+    width: 30px;
+    padding: 0px 2px 2px 3px;
+    margin: 0px 2px -1px -2px;
+    background-color: silver;
+}
+
+.navbar form input.btn2{
+    height: 31px;
+    width: 31px;
+    padding: -1px 2px 2px 2px;
+    margin: 0px 3px 1px 8px;
+    border-radius: 50%;
+    background-color: silver;
+}
+
+.navbar form .right-btns {
+    display: flex;
+    flex-direction: row;
+    padding: 2px 2px 2px 2px;
+    margin: -1px 2px 2px 122px;
+}
+
+.navbar form .right-btns input.btn1 {
+    height: 31px;
+    width: 31px;
+    padding: 2px 2px 2px 2px;
+    margin: 0px 10px 2px 5px;
+    border: none;
+}
+
+.navbar p{
+    border: 2px solid white;
+    width: 15px;
+    height: 15px;
+    margin: 6px 9px 3px 0px;
+    padding: 9px 11px 11px 11px;
+    border-radius: 50%;
+    background-color: green;
+    color: white;
+}
+
+.middle{
+    display: flex;
+}
+
+.sidebar{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+}
+
+.sidebar .part{
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 16px;
+    padding-left: 58px;
+    padding-right: 52px;
+    margin-top: -65px;
+    margin-bottom: 78px;
+    margin-left: -64px;
+    margin-right: -50px;
+    border-bottom: 1px solid grey ;
+}
+.sidebar .part img{
+    width: 30px;
+    height: 30px;
+    margin-left: -40px;
+    margin-top: 5px;
+    margin-bottom: -8px;
+}
+
+.sidebar .part2{
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 16px;
+    padding-left: 58px;
+    padding-right: 52px;
+    margin-top: -60px;
+    margin-bottom: 78px;
+    margin-left: -64px;
+    margin-right: -50px;
+    border-bottom: 1px solid grey ;
+}
+.sidebar .part2 img{
+    image-rendering: pixelated;
+    width: 30px;
+    height: 30px;
+    margin-left: -40px;
+    margin-top: 5px;
+    margin-bottom: -8px;
+    border-radius: 50%;
+}
+
+.sidebar .part2 a{
+    display: inline ;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 12px;
+}
+
+.sidebar .part2 p{
+    margin: 2px 2px 2px 2px;
+    padding: 2px 2px 2px 2px;
+}
+
+.sidebar .part a{
+    display: inline ;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 12px;
+}
+
+.sidebar .part3{
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 16px;
+    padding-left: 9px;
+    padding-right: 52px;
+    margin-top: -60px;
+    margin-bottom: -100px;
+    margin-left: -83px;
+    margin-right: -140px;
+}
+
+.sidebar .part3 a{
+    font-size: small;
+    color: gray;
+    padding-top: 5px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 12px;
+}
+
+.smallbar{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 8px;
+    background-color: white;
+    border-bottom: 1px solid grey ;
+    border-top: 1px solid grey ;
+}
+
+.smallbar a{
+    padding: 4px 10px 16px 5px;
+    border: 2px solid black;
+    width: fit-content;
+    height: 5px;
+    border-radius: 25px;
+    background-color: silver;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+.central{
+    image-rendering: pixelated;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding-left : 40px ;
+    padding-right: 40px;
+    padding-top: 8px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    border: white;
+    padding: 13px 5px 20px 11px;
+
+}
+
+.picture img{
+ width: 240px;
+ height: 220px;
+}
+
+.details{
+    display: flex;
+    flex-direction: row;
+    padding: 2px 2px 2px 2px;
+    margin: 2px 2px -5px 2px;
+}
+
+.details img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 2px 2px 2px 2px;
+    margin: 2px 2px 2px 2px;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    margin-top: -9px;
+}
+
+.navbar input{
+    align-content: center;
+}
+
+.row1 {
+    display: flex;   
+}
+
+.row2 {
+    display: flex;
+    
+}
+
